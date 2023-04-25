@@ -81,14 +81,15 @@ body {
 /* ..........................Battons............................ */
 .modal-btn {
   font-family: inherit;
+  padding: 16px 32px;
+  background: var(--accent);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
-  cursor: pointer;
-  background-color: var(--accent);
+  border: none;
+  line-height: 1.5;
   color: #ffffff;
 }
 .modal-btn:hover,
