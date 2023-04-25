@@ -1,0 +1,175 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-bg-color: #2e2f42;
+  --color-main-text: #2e2f42;
+  --color-secondary-text: #434455;
+  --accent: #4d5ae5;
+  --accent-pressed-state: #404bbf;
+}
+
+body {
+  background: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-secondary-text);
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* ............................Logotype................... */
+.logotype {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.logo-header-blue {
+  color: var(--color-main-text);
+}
+.logo-footer-cloud {
+  color: #f4f4fd;
+}
+/* ...........................Navigation.................... */
+.nav-address {
+  font-style: normal;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-main-text);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-pressed-state);
+}
+/* .......................Contact..................... */
+.contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-secondary-text);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-pressed-state);
+}
+/* ........................Hero................. */
+.hero {
+  color: #ffffff;
+  background-color: var(--secondary-bg-color);
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/* ..........................Battons............................ */
+.modal-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background-color: var(--accent);
+  color: #ffffff;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--accent-pressed-state);
+  color: #ffffff;
+}
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  background-color: #f4f4fd;
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--accent-pressed-state);
+  color: var(--primary-color);
+}
+
+/* ........................Features.................. */
+.el-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-main-text);
+}
+.el-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-secondary-text);
+}
+/* .............................About Team....................... */
+.title-item {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-main-text);
+}
+.description-align {
+  text-align: center;
+}
+.section-team {
+  background: #f4f4fd;
+}
+/* .section-list {
+В секции Our Team
+} */
+.card-bg {
+  background: var(--primary-color);
+}
+.address-footer {
+  background: var(--secondary-bg-color);
+  color: #f4f4fd;
+}
+/* .galerry-card {
+  в портфолио ссылки в каточках
+} */
+.gallery-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-main-text);
+}
+.gallery-text {
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+  color: var(--color-secondary-text);
+}
