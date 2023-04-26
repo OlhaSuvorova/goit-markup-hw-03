@@ -114,6 +114,7 @@ img {
 }
 
 .menu-link {
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -131,7 +132,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-secondary-text);
   margin-right: 40px;
-  padding-left: 0px;
 }
 .contacts-tel {
   margin-right: 0;
