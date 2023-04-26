@@ -47,10 +47,6 @@ img {
   padding-right: 15px;
 }
 
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 /* ............................Logotype................... */
 .logotype {
   margin-right: 76px;
@@ -63,16 +59,28 @@ img {
   color: var(--accent);
 }
 
+.logo {
+  margin-right: 76px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent);
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .logo-header-blue {
   color: var(--color-main-text);
 }
 .logo-footer-cloud {
   color: #f4f4fd;
 }
-/* ...........................Header.................... */
+/* .......................Header.................... */
 .page-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -124,6 +132,10 @@ img {
   color: var(--color-secondary-text);
   margin-right: 40px;
 }
+.contacts-tel {
+  margin-right: 0;
+}
+
 .contacts:hover,
 .contacts:focus {
   color: var(--accent-pressed-state);
@@ -146,7 +158,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   padding-bottom: 48px;
-  width: 496px;
+  max-width: 496px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -164,6 +176,9 @@ img {
   line-height: 1.5;
   color: #ffffff;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -201,6 +216,11 @@ img {
 }
 
 /* ........................Features.................. */
+.section-features {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .features-menu {
   display: flex;
   gap: 24px;
@@ -212,6 +232,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-main-text);
+  margin-bottom: 8px;
 }
 .el-description {
   font-size: 16px;
@@ -231,6 +252,9 @@ img {
   color: var(--color-main-text);
   margin-bottom: 72px;
 }
+.section-about {
+  padding-bottom: 120px;
+}
 
 .cart-about {
   flex-basis: calc((100% - 48px) / 3);
@@ -245,12 +269,15 @@ img {
   text-align: center;
 }
 .section-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background: #f4f4fd;
 }
 .section-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .about-list {
@@ -260,6 +287,9 @@ img {
 }
 
 .card-bg {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
   background: var(--primary-color);
   flex-basis: calc((100% - 72px) / 4);
 }
