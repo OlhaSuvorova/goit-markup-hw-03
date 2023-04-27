@@ -131,14 +131,21 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-secondary-text);
-  margin-right: 40px;
 }
 
 .contacts-email {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-secondary-text);
   margin-right: 40px;
 }
 
 .contacts-tel {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-secondary-text);
   margin-right: 0;
 }
 
@@ -309,7 +316,6 @@ img {
 }
 
 .footer-text {
-  padding-top: 18px;
   width: 264px;
   margin-right: auto;
 }
@@ -356,7 +362,6 @@ img {
 .gallery-text {
   font-size: 16px;
   line-height: 1.5;
-  padding-bottom: 32px;
   letter-spacing: 0.02em;
   color: var(--color-secondary-text);
 }
