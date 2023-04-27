@@ -127,7 +127,10 @@ img {
 }
 /* .......................Contact..................... */
 .contacts {
-  gap: 40px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-secondary-text);
 }
 
 .contacts-email {
