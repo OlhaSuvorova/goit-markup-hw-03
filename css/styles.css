@@ -149,8 +149,8 @@ img {
   margin-right: 0;
 }
 
-.address .list:hover,
-.address .list:focus {
+.contacts:hover,
+.contacts:focus {
   color: var(--accent-pressed-state);
 }
 
